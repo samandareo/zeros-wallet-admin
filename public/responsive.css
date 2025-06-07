@@ -1,0 +1,122 @@
+@media only screen and (max-width: 600px) {
+    .top-logo{
+        border-right: none;
+        height: 60px;
+    }
+    .menu-bar{
+        padding: 10px;
+        color: rgb(32, 32, 32);
+        float: right;
+        padding-top: 18px;
+        margin-right: 10px;
+    }
+
+    .sidemenuOpen{
+        width: 0px;
+        display: none;
+    }
+    .contentClose{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+    .sidemenuClose{
+        width: 220px;
+        padding: 0;
+        margin: 0;
+        height: 100%!important;
+        position: fixed;
+        background-color: rgb(253, 253, 253);
+        border-right: 1px solid rgb(250, 249, 249);
+        display: block;
+        cursor: pointer;
+        overflow-y: auto;
+    }
+    .contentOpen{
+        width: 100%;
+        height: auto;
+    }
+    .sidemenuClose li{
+        height: 45px;
+        border-bottom: 1px solid rgb(245, 243, 243);
+        width: 100%;
+        list-style: none;
+        padding: 8px;
+        padding-left: 15px;
+        font-size: 16px;
+      }
+    .sidemenuClose li .far{
+        margin-right: 10px;
+        font-size: 18px;
+    }
+      .sidebar li a{
+          margin-left: 10px;
+          font-size: 14px;
+          color: rgb(128, 125, 125);
+      }
+      .sidemenuClose li.active{
+          background-color: rgb(247, 244, 239);
+          color: black;
+      }
+      .sidemenuClose li:hover{
+          background-color: rgb(247, 244, 239);
+          color: black;
+      }
+      .sidelogo{
+        border-right: 1px solid rgb(245, 243, 243);
+        height: 60px;
+        display: block;
+        padding-left: 10px;
+      }
+    .taddb{
+        padding-left: 10px;
+        padding-right: 20px;
+        display: inline-block;
+    }
+    .taddb .btn{
+        width: 110px;
+        margin-right: 10px;
+    }
+    .taddb .form-control{
+        width: 230px;
+        float: right;
+    }
+    .report-head{
+        height: 35px;
+        width: 100%;
+        margin-bottom: 0;
+        padding-left: 0px;
+        display: block;
+        overflow: hidden;
+    }
+    .report-head li{
+        list-style: none;
+        float: left;
+        text-align: center;
+        width: auto;
+        height: 35px;
+        padding: 2px!important;
+        padding-top: 5px!important;
+        cursor: pointer;
+    }
+    .report-head li a{
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+        margin-right: 0px!important;
+        width: auto;
+        font-size: 10px;
+    }
+    .login{
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 150px;
+        margin-left: 5px!important;
+        margin-right: 10px;
+    }
+    .taddb .form-control{
+        width: 180px;
+        float: right;
+    }
+
+}
